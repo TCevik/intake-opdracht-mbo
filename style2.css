@@ -1,0 +1,22 @@
+body {
+    background-color: #e0f7fa; /* Lichtblauwe achtergrond */
+    font-family: Arial, sans-serif; /* Modern lettertype */
+    text-align: center; /* Alles gecentreerd */
+    padding: 20px;
+}
+
+h1 {
+    color: #d32f2f; /* Donkerrood voor de titel */
+    font-size: 50px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schaduw voor extra effect */
+}
+
+p {
+    font-size: 40px; /* Grotere tekstgrootte voor de welkomstboodschap */
+    color: #388e3c; /* Donkergroene tekst */
+    background-color: #c8e6c9; /* Lichtgroene achtergrond voor contrast */
+    padding: 15px;
+    border-radius: 10px; /* Afgeronde hoeken */
+    display: inline-block; /* Zorgt ervoor dat de achtergrond alleen rond de tekst verschijnt */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Zachte schaduw voor diepte */
+}

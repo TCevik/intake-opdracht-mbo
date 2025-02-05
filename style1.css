@@ -1,0 +1,76 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #66b2cc;
+    color: #000;
+}
+
+.container {
+    background-color: #66b2cc;
+    padding: 20px;
+    border: 2px solid #000;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    background-color: #b3e6ff;
+    border: 1px solid black;
+    flex: 1;
+    margin: 10px 0;
+}
+
+.content img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.facebook {
+    font-size: 20px;
+    color: #3b5998;
+}
+
+.facebook img {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+.contact-btn {
+    background-color: #c4d600;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

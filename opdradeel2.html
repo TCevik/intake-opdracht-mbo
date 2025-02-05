@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Opdracht A deel 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Mijn eerste Javascript (niet echt het eerste)</h1>
+    <p id="antwoord"></p>
+
+    <script>
+        // Vraagt om de naam van de gebruiker
+        let antwoord = prompt("Wat is je naam?");
+        
+        // Laat een alert zien met de ingevoerde naam
+        alert("Je naam is: " + antwoord);
+        
+        // Toont de welkomstboodschap op de pagina
+        document.getElementById("antwoord").innerHTML = "Welkom beste " + antwoord + "!!!";
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intake Opdracht A deel 1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="margin-top: -5px;">Lanparty B.V.</h1>
+
+        <div class="content">
+            <img src="image.png" alt="Lanparty" width="300" height="200">
+            <div class="text">
+                <p>Het bedrijf voor al uw LanParty's.</p>
+                <p>Wij leveren alle informatie voor uw party, zowel de hardware, software en de drank!</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="facebook">
+                Find us on <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                    alt="Facebook">
+            </div>
+            <button class="contact-btn">Contact</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const contactBtn = document.querySelector(".contact-btn");
+
+            contactBtn.addEventListener("click", function () {
+                const boodschap = prompt("Voer hier uw boodschap in:");
+                if (boodschap) {
+                    alert("Hartelijk dank voor uw boodschap.");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
